@@ -1,4 +1,3 @@
-
 .navbar-default {
     background-color: #060923;
     border-color: #060923;
@@ -41,9 +40,42 @@ p {
     text-align: center;
     position: static;
     top: -110px;
-    background-color:#4659fb;
+    background-color: #4659fb;
 }
-.img-rounded{
+.img-rounded {
     width: 350px;
     margin-top: -90px;
+}
+
+/*DASHBOARD*/
+
+main {
+    height: 1000px;
+    width: calc(105% - 200px);
+    float: right;
+    color: white;
+}
+.cobroFont {
+    font-size: 40px;
+    text-align: center;
+}
+.cobroFont>input {
+    color: #060923;
+    opacity: 0.5;
+}
+.link{
+  padding-left: 30%;
+}
+.link ul li a{
+margin:  auto 50px;
+font-size: 25px;
+}
+#dashboard-background {
+    background-image: url('../img/finanzas-dash.jpg');
+}
+aside {
+    width: 135px;
+    height: 1000px;
+    float: left;
+    background-color: yellow;
 }
