@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 body{
   margin: 0;
   height: 100%;
 }
+=======
+>>>>>>> 97fdf42590bb85f84c976cb7bd573a85eb77137e
 .navbar-default {
     background-color: #060923;
     border-color: #060923;
@@ -40,6 +43,7 @@ p {
     color: white;
     font-family: sans-serif;
     margin-top: 90px;
+<<<<<<< HEAD
     padding-right: 50px;
 }
 form {
@@ -56,4 +60,49 @@ form {
 footer{
   padding: 50px auto;
   margin:0;
+=======
+}
+#signIn {
+    text-align: center;
+    position: static;
+    top: -110px;
+    background-color: #4659fb;
+}
+.img-rounded {
+    width: 350px;
+    margin-top: -90px;
+>>>>>>> 97fdf42590bb85f84c976cb7bd573a85eb77137e
+}
+
+/*DASHBOARD*/
+
+main {
+    height: 1000px;
+    width: calc(105% - 200px);
+    float: right;
+    color: white;
+}
+.cobroFont {
+    font-size: 40px;
+    text-align: center;
+}
+.cobroFont>input {
+    color: #060923;
+    opacity: 0.5;
+}
+.link{
+  padding-left: 30%;
+}
+.link ul li a{
+margin:  auto 50px;
+font-size: 25px;
+}
+#dashboard-background {
+    background-image: url('../img/finanzas-dash.jpg');
+}
+aside {
+    width: 135px;
+    height: 1000px;
+    float: left;
+    background-color: #041196;
 }

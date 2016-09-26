@@ -13,7 +13,7 @@
 .navbar-brand>img {
     with: 80%;
 }
-#index .header-section {
+.header-section {
     background-image: url('../img/background-image.jpg');
 }
 .header-section {
@@ -40,7 +40,7 @@ p {
     text-align: center;
     position: static;
     top: -110px;
-    background-color:#4659fb;
+
 }
 .img-rounded{
     width: 350px;
