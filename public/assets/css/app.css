@@ -1,4 +1,7 @@
-
+body{
+  margin: 0;
+  height: 100%;
+}
 .navbar-default {
     background-color: #060923;
     border-color: #060923;
@@ -16,6 +19,7 @@
 }
 #index .header-section {
     background-image: url('../images/background-image.jpg');
+
 }
 .header-section {
     width: 100%;
@@ -36,14 +40,20 @@ p {
     color: white;
     font-family: sans-serif;
     margin-top: 90px;
+    padding-right: 50px;
 }
-#signIn {
-    text-align: center;
-    position: static;
-    top: -110px;
-    background-color:#4659fb;
+form {
+    float: right;
+    position: relative;
+    right: 250px;
 }
-.img-rounded{
-    width: 350px;
-    margin-top: -90px;
+.checkbox {
+    float: right;
+    position: relative;
+    right: 126px;
+    bottom: 50px;
+}
+footer{
+  padding: 50px auto;
+  margin:0;
 }
