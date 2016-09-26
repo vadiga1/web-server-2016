@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-body{
-  margin: 0;
-  height: 100%;
+body {
+    margin: 0;
+    height: 100%;
 }
-=======
->>>>>>> 97fdf42590bb85f84c976cb7bd573a85eb77137e
 .navbar-default {
     background-color: #060923;
     border-color: #060923;
@@ -22,7 +19,6 @@ body{
 }
 #index .header-section {
     background-image: url('../images/background-image.jpg');
-
 }
 .header-section {
     width: 100%;
@@ -43,8 +39,7 @@ p {
     color: white;
     font-family: sans-serif;
     margin-top: 90px;
-<<<<<<< HEAD
-    padding-right: 50px;
+    <<<<<<< HEAD padding-right: 50px;
 }
 form {
     float: right;
@@ -57,10 +52,10 @@ form {
     right: 126px;
     bottom: 50px;
 }
-footer{
-  padding: 50px auto;
-  margin:0;
-=======
+footer {
+    padding: 50px auto;
+    margin: 0;
+    =======
 }
 #signIn {
     text-align: center;
@@ -71,7 +66,7 @@ footer{
 .img-rounded {
     width: 350px;
     margin-top: -90px;
->>>>>>> 97fdf42590bb85f84c976cb7bd573a85eb77137e
+    >>>>>>>97fdf42590bb85f84c976cb7bd573a85eb77137e
 }
 
 /*DASHBOARD*/
@@ -90,12 +85,12 @@ main {
     color: #060923;
     opacity: 0.5;
 }
-.link{
-  padding-left: 30%;
+.link {
+    padding-left: 30%;
 }
-.link ul li a{
-margin:  auto 50px;
-font-size: 25px;
+.link ul li a {
+    margin: auto 50px;
+    font-size: 25px;
 }
 #dashboard-background {
     background-image: url('../img/finanzas-dash.jpg');
